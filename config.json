@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Киевец Лилия"
+  },
+  "text": {
+    "more": "Данный граф показывает моих друзей, а также их взаимодействие между собой. Можно понять, какие у меня существют общие друзья с каким-либо человеком. Граф раскрашен по классам модулярности, т.е. объединены люди, которые находятся друг у друга в друзьях. Получается, что они знакомы между собой. Результат совпадает с реальностью.",
+    "intro": "Ориентированный граф моих друзей из социальной сети Вконтакте.",
+    "title": "Ориентированный граф друзей ВК"
+  },
+  "legend": {
+    "edgeLabel": "Связи моих друзей между собой ",
+    "colorLabel": "Группы людей, которые объединены общим знакомством",
+    "nodeLabel": "Мои друзья"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
